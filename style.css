@@ -1,0 +1,58 @@
+h2{
+    font-family: "Maven Pro",sans-serif;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+p{
+    font-family: "Open Sans",sans-serif;
+    
+}
+
+.div-a h1{
+    font-family: "Maven Pro",sans-serif;
+    font-size: 2.5rem;
+}
+
+.first-paragraph{
+    background-color: rgb(46, 44, 44);
+    color: blanchedalmond;
+    height: 60px;
+}
+
+.first-paragraph > p > button{
+    background-color: #f65b5f;
+    width: 200px;
+    height: 60px;
+}
+
+p + button{
+    background-color: #f65b5f;
+    color: #ffffff;
+    width: 150px;
+    height: 40px;
+}
+#last-div{
+   background-color: #1b1f25;
+   color: #ffffff;
+}
+
+#last a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Open Sans",sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-family: "Open Sans",sans-serif;
+    color: #131111;
+}
+
+
+
+
