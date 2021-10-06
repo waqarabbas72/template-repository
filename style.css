@@ -4,6 +4,24 @@ h2{
     font-size: 1.5rem;
 }
 
+h1{
+    text-align: center;
+    font-family: "Maven Pro",sans-serif;
+    margin: 50px 0;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav ul li{
+    margin: 5px;
+    font-size: 10px;
+}
+
+
 p{
     font-family: "Open Sans",sans-serif;
     
@@ -26,6 +44,11 @@ p{
     height: 60px;
 }
 
+button{
+    cursor: pointer;
+    border: none;
+}
+
 p + button{
     background-color: #f65b5f;
     color: #ffffff;
@@ -35,9 +58,13 @@ p + button{
 #last-div{
    background-color: #1b1f25;
    color: #ffffff;
+   display: flex;
+   flex-direction: row;
+   justify-content: baseline;
+   font-size: 15px;
 }
 
-#last a {
+#last-div a {
     text-decoration: none;
     color: #ffffff;
     font-family: "Open Sans",sans-serif;
@@ -52,6 +79,65 @@ ul{
     font-family: "Open Sans",sans-serif;
     color: #131111;
 }
+
+.sec-1{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.sec-1 button{
+    margin: 40px 0;
+    
+}
+
+.sec-2{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.sec-2 button{
+    margin: 40px 0;
+    
+}
+
+.sec-3{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.sec-3 button{
+    margin: 40px 0;
+    
+}
+
+.sec-4{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;  
+}
+
+.sec-4 button{
+    margin: 40px 0;
+    
+}
+
+button  img{
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+
+
+
+
+
+
 
 
 
